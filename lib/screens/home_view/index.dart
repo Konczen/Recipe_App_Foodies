@@ -10,7 +10,7 @@ class Homeview extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         resizeToAvoidBottomInset: false,
-        backgroundColor: Colors.greenAccent[100],
+        backgroundColor: Colors.yellow[50],
         body: Center(
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -46,17 +46,6 @@ class Homeview extends StatelessWidget {
         style: TextStyle(
           fontSize: 35,
           fontWeight: FontWeight.bold,
-          fontStyle: FontStyle.italic,
-          shadows: [
-            Shadow(
-                offset: Offset(3, 3),
-                color: Colors.black.withOpacity(0.70),
-                blurRadius: 10),
-            Shadow(
-                offset: Offset(-3, -3),
-                color: Colors.greenAccent[100].withOpacity(0.85),
-                blurRadius: 10)
-          ],
         ),
       ),
       Container(height: 40),
@@ -83,17 +72,11 @@ class Homeview extends StatelessWidget {
               height: 185,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                  border: Border.all(color: Colors.black, width: 2),
-                  boxShadow: [
-                    BoxShadow(
-                        offset: Offset(0, 5),
-                        color: Colors.black,
-                        blurRadius: 15),
-                  ],
+                  border: Border.all(color: Colors.black, width: 0),
                   gradient: LinearGradient(
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
-                      colors: [Colors.blueGrey[500], Colors.cyan])),
+                      colors: [Colors.blueGrey[400], Colors.cyan[700]])),
               child:
                   Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                 Icon(Icons.shuffle, size: 40, color: Colors.yellow[700]),
@@ -128,17 +111,11 @@ class Homeview extends StatelessWidget {
               height: 185,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                  border: Border.all(color: Colors.black, width: 2),
-                  boxShadow: [
-                    BoxShadow(
-                        offset: Offset(0, 5),
-                        color: Colors.black,
-                        blurRadius: 15),
-                  ],
+                  border: Border.all(color: Colors.black, width: 0),
                   gradient: LinearGradient(
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
-                      colors: [Colors.blueGrey[500], Colors.cyan])),
+                      colors: [Colors.blueGrey[400], Colors.cyan[700]])),
               child:
                   Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                 Icon(Icons.campaign, size: 40, color: Colors.yellow[700]),
@@ -171,14 +148,8 @@ class Homeview extends StatelessWidget {
               width: 385,
               height: 220,
               decoration: BoxDecoration(
-                  boxShadow: [
-                    BoxShadow(
-                        offset: Offset(0, 5),
-                        color: Colors.black,
-                        blurRadius: 15),
-                  ],
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),
-                  border: Border.all(color: Colors.black, width: 2),
+                  border: Border.all(color: Colors.black, width: 0),
                   image: DecorationImage(
                       image: AssetImage('assets/FoodPic.png'),
                       fit: BoxFit.cover)),

@@ -21,14 +21,14 @@ class LoadingState extends State<Loading> {
                   fontWeight: FontWeight.bold,
                   color: Colors.black)),
           centerTitle: true,
-          backgroundColor: Colors.greenAccent[100],
+          backgroundColor: Colors.yellow[50],
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircularProgressIndicator(
-                backgroundColor: Colors.greenAccent[100],
+                backgroundColor: Colors.yellow[400],
                 valueColor: new AlwaysStoppedAnimation<Color>(Colors.black12),
                 strokeWidth: 10,
               ),

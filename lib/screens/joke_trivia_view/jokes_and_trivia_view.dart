@@ -56,7 +56,7 @@ class _JokesViewState extends State<JokesView> {
               return Text("${snapshot.error}");
             }
             return CircularProgressIndicator(
-              backgroundColor: Colors.greenAccent[100],
+              backgroundColor: Colors.yellowAccent[100],
               valueColor: new AlwaysStoppedAnimation<Color>(Colors.black12),
               strokeWidth: 10,
             );
@@ -76,7 +76,7 @@ class _JokesViewState extends State<JokesView> {
               return Text("${snapshot.error}");
             }
             return CircularProgressIndicator(
-              backgroundColor: Colors.greenAccent[100],
+              backgroundColor: Colors.yellowAccent[100],
               valueColor: new AlwaysStoppedAnimation<Color>(Colors.black12),
               strokeWidth: 10,
             );

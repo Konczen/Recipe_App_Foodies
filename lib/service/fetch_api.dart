@@ -11,7 +11,7 @@ import 'package:projectapp/models/trivia_model.dart';
 
 const APIURL = 'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com';
 Map<String, String> keyHeader = {
-  'X-RapidAPI-Key': "60e8154215mshb154a16e630ef85p138ab7jsna8e33460c705"
+  'X-RapidAPI-Key': "185e443f72msha472bffdc00fd44p125786jsnbbd027cf58d3"
 };
 
 class FetchAPI {

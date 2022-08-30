@@ -50,8 +50,8 @@ class _FocusIngredientsState extends State<FocusIngredients> {
                 Column(
                   children: [
                     _recipeTitle(),
-                    _ingredientStart(),
-                    _ingredientList(),
+                  //  _ingredientStart(),
+                  //  _ingredientList(),
                     _instructionStart(),
                     _instructionList()
                   ],
@@ -78,7 +78,7 @@ class _FocusIngredientsState extends State<FocusIngredients> {
       ),
     );
   }
-
+/*
   Widget _ingredientStart() {
     return Padding(
       padding: const EdgeInsets.only(top: 5.0, bottom: 5),
@@ -103,7 +103,7 @@ class _FocusIngredientsState extends State<FocusIngredients> {
           ));
         });
   }
-
+*/
   Widget _instructionStart() {
     return Padding(
       padding: const EdgeInsets.only(top: 15.0, bottom: 10),
